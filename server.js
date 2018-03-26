@@ -3,8 +3,6 @@ const fs = require('fs');
 const hbs = require('hbs');
 const port = process.env.PORT || 8080;
 
-const port = process.env.PORT || 8080;
-
 var app = express();
 
 app.set('view engine', hbs)
