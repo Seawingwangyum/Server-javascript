@@ -5,11 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
     "start":"node server.js"
-=======
-    "start": "node server.js"
->>>>>>> d207cbf2d640e64ebe482beff3a65adbd79e6f71
   },
   "author": "Michal Aibin",
   "license": "ISC",
