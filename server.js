@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const hbs = require('hbs');
+const port = process.env.PORT || 8080;
 
 const port = process.env.PORT || 8080;
 
@@ -52,5 +53,10 @@ app.get('/404', (request, response) => {
 })
 
 app.listen(port, () => {
+<<<<<<< HEAD
 	console.log('Server is up on the port 8080');
 });
+=======
+	console.log(`Server is up on the port ${port}`);
+});
+>>>>>>> d207cbf2d640e64ebe482beff3a65adbd79e6f71
