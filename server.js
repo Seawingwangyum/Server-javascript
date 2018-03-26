@@ -15,7 +15,7 @@ app.use((request, response, next)=> {
 		Maintainence: "This site is currently under maintainence"
 	});
 	*/
-	console.log('Hello there')
+	console.log("goodbye")
 	/* adds information to a log file
 	var time = new Date().toString();
 	var log = (`${time}: ${request.method} ${request.url}`);
